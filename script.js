@@ -38,7 +38,7 @@ const lavadoraDiv = document.createElement("div");
 lavadoraDiv.innerHTML = 
     `<h3>${lavi.nombre}</h3>
         <p>Voltaje: ${lavi.voltaje}V</p>
-        <p>Precio: $${lavi.precio}</p>
+        <p>Precio: €${lavi.precio}</p>
         <p>Eficiencia: ${lavi.eficiencia}</p>`;
 tienda.appendChild(lavadoraDiv);
 
@@ -46,6 +46,6 @@ const secadoraDiv = document.createElement("div");
 secadoraDiv.innerHTML = 
     `<h3>${seca.nombre}</h3>
         <p>Voltaje: ${seca.voltaje}V</p>
-        <p>Precio: $${seca.precio}</p>
+        <p>Precio: €${seca.precio}</p>
         <p>Eficiencia: ${seca.eficiencia}</p>`;
 tienda.appendChild(secadoraDiv);
